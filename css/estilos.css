@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #AEB6C0 ;
+    text-align: center;
 }
 
 header {
@@ -78,4 +79,10 @@ button:hover{
 
 .imagem{
     width: 100px;
+}
+
+section{
+    background-color: red;
+    display: inline-block;
+    margin-top: 2%;
 }
