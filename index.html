@@ -16,8 +16,10 @@
     </header>
     <div class="menu">
         <div class="pesquisa">
-            <input type="search" id="searchInput" placeholder="Pesquisar Pokémon" class="Pesquisar">
-        <button type="search" class="pesquisar" id="searchButton">Pesquisar</button>
+          <input type="text" id="searchInput" placeholder="Pesquisar Pokémon" class="Pesquisar">
+          <button id="searchButton" class="pesquisar">Pesquisar</button>
+
+          
         <img src="imagens/pikachu 1.png" class="pikachu">
         <img src="imagens/pikachu 1.png" class="pikachul">
         </div></div> 
@@ -28,6 +30,8 @@
     <h1 class="pokemon__data">
       <span class="pokemon__number"></span> -
       <span class="pokemon__name"></span>
+      <span class="pokemon__image"></span>
+      <span class="pokemon__height"></span>
     </h1>
 
     <form class="form">
@@ -43,21 +47,24 @@
       <button class="button btn-prev"> &lt;</button>
       <button class="button btn-next"> &gt;</button>
     </div>
-    <div class="pokemon__details">
-        <!-- As informações detalhadas do Pokémon serão inseridas aqui -->
-    </div>
+   
     <img src="imagens/pokedex2.png" alt="pokedex" class="pokedex">
     
 
     
        </section>
 
-        <div id="pokedex" class="flex-container"></div>
+       <div id="pokedex" class="flex-container"></div>
+        <div id="pokemonDetails" class="details-container"></div>
     </main>
     
     <div>
         <p>Para mais pokemons vai até pesquisar</p>
     </div>
     <script src="js/script.js"></script>
+
+    <footer>Produzido por Emily Batista & Millena Muro
+      <img src="imagens/pikachu 1.png" alt="">
+    </footer>
 </body>
 </html>
