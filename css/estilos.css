@@ -79,3 +79,11 @@ button:hover{
 .imagem{
     width: 100px;
 }
+
+.slogan { 
+	margin-top: 0;
+	background-color: #7A1FF6 ;
+	color: #FFFFFF;
+	font-size: 10pt;
+	text-align: center;
+}
