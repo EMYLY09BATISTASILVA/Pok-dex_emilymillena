@@ -5,7 +5,7 @@ body {
     background-color: #AEB6C0 ;
     text-align: center;
 }
-
+ 
 header {
     background-color: #0051A7;
     color: #fff;
@@ -13,18 +13,18 @@ header {
     padding: 15px;
     height: 180px;
 }
-
+ 
 h1 {
     font-size: 2em;
     margin: 10;
 }
-
+ 
 .main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+ 
 .Pesquisar {
    border-radius: 10px ;
    width: 400px;
@@ -36,9 +36,9 @@ h1 {
     height: 30px;
     border-radius: 10px;
     border-color: transparent;
-    
+   
 }
-
+ 
 /* Estilos para exibir 4 Pokémon por linha */
 .card{
     background-color: #fff;
@@ -50,9 +50,9 @@ h1 {
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: inline-block; /* Garante que fiquem em linha reta */
-
+ 
 }
-
+ 
 .card{
     color: white;
     background: none;
@@ -65,19 +65,18 @@ button:hover{
 .card{
     background-color: white;
     color: black;
-    
+   
 }
-
+ 
 .card img {
     width: 80px;
     height: 80px;
 }
-
+ 
 .card h2 {
     font-size: 1.2em;
 }
-
+ 
 .imagem{
     width: 100px;
-}
 }
