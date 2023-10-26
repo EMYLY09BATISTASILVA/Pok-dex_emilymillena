@@ -8,18 +8,56 @@
 </head>
 <body>
     <header>
+        
+        
         <img src="imagens/tartarugas.png" class="imagem">
         <img src="imagens/Vector.png" alt="">
-        <div class="pesquisa">
-            <input type="text" id="searchInput" placeholder="Pesquisar Pokémon" class="Pesquisar">
-        <button class="pesquisar" id="searchButton">Pesquisar</button>
-        </div> 
+        
     </header>
+    <div class="menu">
+        <div class="pesquisa">
+            <input type="search" id="searchInput" placeholder="Pesquisar Pokémon" class="Pesquisar">
+        <button type="search" class="pesquisar" id="searchButton">Pesquisar</button>
+        <img src="imagens/pikachu 1.png" class="pikachu">
+        <img src="imagens/pikachu 1.png" class="pikachul">
+        </div></div> 
     <main>
-       
+       <section class="jogo">
+        <img src="#" alt="pokemon" class="pokemon__image">
+
+    <h1 class="pokemon__data">
+      <span class="pokemon__number"></span> -
+      <span class="pokemon__name"></span>
+    </h1>
+
+    <form class="form">
+      <input
+        type="search"
+        class="input__search"
+        placeholder="Nam Num"
+        required
+      />
+    </form>
+
+    <div class="buttons">
+      <button class="button btn-prev"> &lt;</button>
+      <button class="button btn-next"> &gt;</button>
+    </div>
+    <div class="pokemon__details">
+        <!-- As informações detalhadas do Pokémon serão inseridas aqui -->
+    </div>
+    <img src="imagens/pokedex2.png" alt="pokedex" class="pokedex">
+    
+
+    
+       </section>
 
         <div id="pokedex" class="flex-container"></div>
     </main>
+    
+    <div>
+        <p>Para mais pokemons vai até pesquisar</p>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
